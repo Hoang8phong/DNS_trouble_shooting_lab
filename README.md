@@ -1,10 +1,10 @@
-# 🧪 DNS Troubleshooting Lab – Windows Server 2019 & Windows 10
+# DNS Troubleshooting Lab – Windows Server 2019 & Windows 10
 
 This self-directed lab simulates a DNS resolution failure in a small enterprise IT environment using **Windows Server 2019** as a DNS server and **Windows 10** as a client. The goal is to identify, troubleshoot, and resolve a common DNS issue encountered in real-world IT support scenarios.
 
 ---
 
-## 📌 Lab Objective
+## Lab Objective
 
 - Simulate a DNS resolution failure on a client machine
 - Diagnose the issue using built-in Windows tools (`ping`, `nslookup`, `ipconfig`)
@@ -15,7 +15,7 @@ This self-directed lab simulates a DNS resolution failure in a small enterprise 
 
 ---
 
-## 🛠️ Lab Environment
+## Lab Environment
 
 | Component      | Configuration            |
 |----------------|--------------------------|
@@ -26,14 +26,14 @@ This self-directed lab simulates a DNS resolution failure in a small enterprise 
 
 ---
 
-## 🧪 Simulated Issue
+## Simulated Issue
 
 The client was configured with an incorrect DNS server (`8.8.9.9`) and failed to resolve domain names.  
 The DNS server itself was initially unable to reach external DNS servers due to lack of internet access.
 
 ---
 
-## ✅ Solution Steps
+## Solution Steps
 
 1. **Configure static IP and DNS on Client01**
 2. **Install and configure DNS Server role on DC01**
@@ -45,7 +45,7 @@ The DNS server itself was initially unable to reach external DNS servers due to 
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 Will update soon
 
 - DNS misconfiguration
@@ -56,7 +56,7 @@ Will update soon
 
 ---
 
-## 🧠 Skills Practiced
+## Skills Practiced
 
 - DNS Server installation and configuration
 - Forwarders and internal DNS zone management
